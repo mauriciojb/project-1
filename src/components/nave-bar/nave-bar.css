@@ -1,0 +1,12 @@
+.menu{
+    background-color: rgba(0, 0, 0, 0.699);
+    background-attachment: fixed;
+    height:60px;
+}
+
+.title{
+    color: #fff;
+    padding: 10px;
+    font-size: 30px;
+}
+

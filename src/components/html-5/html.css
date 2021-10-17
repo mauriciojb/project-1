@@ -1,0 +1,17 @@
+.container{
+    height: 100%;
+}
+.container-html{
+    width: 50%;
+    height: 100%;
+    margin-top: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.float-right{
+    float: right;
+}
+.float-left{
+    float:left;
+}

@@ -1,0 +1,101 @@
+
+
+.titel-cards{
+    text-align: center;
+    padding: 60px 0;
+    color: #fff; 
+    font-size:60px;
+    font-weight:300;
+}
+.cont-cards{
+    background-color: rgba(0, 0, 0, 0.37);
+    height:auto;
+    width: 100%;
+    margin-top:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cards{
+    background-size: fill;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-color: black;
+    height: 320px;
+    width: 200px;
+    margin:20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:9px;
+}
+
+
+.img-1{
+    
+    
+    background-image: url(../../img/hallowin.jpg);
+}
+.img-2{
+    
+    
+    background-image: url(../../img/styled.jpg);
+}
+.img-3{
+    
+    
+    background-image: url(../../img/react.jpg);
+}
+.img-4{
+    
+    
+    background-image: url(../../img/web.jpg);
+}
+
+
+.cards div {
+    color:white;
+    opacity: 0;
+    font-size: 25px;
+    text-align: center;
+    display:inline-block;
+}
+.cards:hover div{
+    opacity: 1;
+}
+.cards-contents{
+    background-color:rgba(255, 255, 255, 0.048);
+    background-size:contain;
+    height: 320px;
+    width: 200px;
+    border-radius:10px;
+}
+.cards-contents h1{
+    font-size:25px;
+    margin-top: 30px;
+    padding:5px 0;
+    
+}
+
+.cards-contents p {
+    font-size:15px;
+    margin:70px auto;
+    width:180px;
+    text-align: center;
+    
+}
+
+.cards-contents button {
+    margin-top: 20px;
+}
+
+.btn-card{
+    border: none;
+    background-color:white;
+    color:black;
+    width:120px;
+    border-radius: 20px;
+    padding: 5px;
+}
